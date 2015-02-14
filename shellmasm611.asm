@@ -7,7 +7,7 @@ call check_video
 mov ah,9
 mov dx,offset mes
 int 21h
-call amin_proc
+call main_proc
 int 20h
 include main.asm
 include display.asm
